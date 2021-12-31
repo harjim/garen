@@ -10,7 +10,7 @@
   "lint-staged": {
     "*.{js,ts,jsx,tsx,json,md}": "prettier --write",
     "{src,script,packages}/**/*.{js,ts,jsx,tsx}": "eslint --fix",
-    "{src,packages}": "stylelint --fix"
+    "{src,packages}/**/*.scss": "stylelint --fix"
   },
   "dependencies": {},
   "devDependencies": {
