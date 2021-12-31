@@ -12,7 +12,10 @@
     "{src,script,packages}/**/*.{js,ts,jsx,tsx}": "eslint --fix",
     "{src,packages}/**/*.scss": "stylelint --fix"
   },
-  "dependencies": {},
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "prop-types": "^15.8.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.0.0",
     "@commitlint/config-conventional": "^16.0.0",
